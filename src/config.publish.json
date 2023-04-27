@@ -1,6 +1,6 @@
 {
     "environment": "publishing",
-    "managementApiUrl": "https://<service-name>.management.azure-api.net",
-    "managementApiAccessToken": "SharedAccessSignature...",
+    "managementApiUrl": "https://kawuliapitest01.management.azure-api.net",
+    "managementApiAccessToken": "SharedAccessSignature integration&20230510073411&f70H6Fh7FjuuKAD0WweMzYY/6m7zNK0WqTQ2c0Nq4KzyJjj5iTtFw50Vr4eHo/eoTogZtY4JcughFQsojnscVw==",
     "useHipCaptcha": false
 }

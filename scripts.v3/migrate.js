@@ -34,15 +34,15 @@ const { ImporterExporter } = require('./utils.js');
 
 const yargs = require('yargs')
     .example(`node ./migrate ^ \r
-    *    --sourceSubscriptionId "< your subscription ID > \r
-    *    --sourceResourceGroupName "< your resource group name > \r
-    *    --sourceServiceName "< your service name > \r
+    *    --sourceSubscriptionId "2ab0e855-92b8-4804-b21d-30b83fc1d258  \r
+    *    --sourceResourceGroupName "kaighostrg \r
+    *    --sourceServiceName " kai-test-apim \r
     *    --sourceTenantId "< optional (needed if source and destination is in different subscription) source tenant ID > \r
     *    --sourceServicePrincipal "< optional (needed if source and destination is in different subscription) source service principal or user name. > \r
     *    --sourceServicePrincipalSecret "< optional (needed if source and destination is in different subscription) secret or password for service principal or az login for the source apim. > \r
-    *    --destSubscriptionId "< your subscription ID > \r
-    *    --destResourceGroupName "< your resource group name > \r
-    *    --destServiceName "< your service name > \r
+    *    --destSubscriptionId "2ab0e855-92b8-4804-b21d-30b83fc1d258  \r
+    *    --destResourceGroupName "kawuliapiml200  \r
+    *    --destServiceName "kawuliapitest01  \r
     *    --destTenantId "< optional (needed if source and destination is in different subscription) destination tenant ID > \r
     *    --destServicePrincipal "< optional (needed if source and destination is in different subscription) destination service principal or user name. > \r
     *    --destServicePrincipalSecret "< optional (needed if source and destination is in different subscription) secret or password for service principal or az login for the destination. >\n`)
